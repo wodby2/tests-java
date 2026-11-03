@@ -1,0 +1,11 @@
+# Maven build output and the wrapper's downloaded jar.
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Wodby development workspace state.
+.wodby-workspace/
+
+# IDEs.
+.idea/
+*.iml
+.vscode/

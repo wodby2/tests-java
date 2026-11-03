@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A Java HTTP starter application running on Wodby.">
+    <title>Java on Wodby</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="status"><span aria-hidden="true"></span> Deployment healthy</p>
+        <p class="kicker">Java + jdk.httpserver + Wodby</p>
+        <h1 id="page-title">Your Java app is running.</h1>
+        <p class="intro">
+          A single-jar HTTP service on the JDK's built-in server, with virtual
+          threads, bundled assets, request logs, and graceful shutdown.
+        </p>
+        <div class="actions">
+          <a class="primary" href="https://dev.java/learn/">Build with Java</a>
+          <a href="https://wodby.com/docs/2.0/">Explore Wodby</a>
+        </div>
+      </section>
+
+      <section class="details" aria-labelledby="details-title">
+        <div>
+          <p class="number">01</p>
+          <h2 id="details-title">Runtime</h2>
+        </div>
+        <dl>
+          <div>
+            <dt>Java</dt>
+            <dd>{{javaVersion}}</dd>
+          </div>
+          <div>
+            <dt>Server</dt>
+            <dd>jdk.httpserver</dd>
+          </div>
+          <div>
+            <dt>API example</dt>
+            <dd><a href="/api/status">/api/status</a></dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+
+    <footer>
+      <span>Single jar ready</span>
+      <a href="/healthz">Health check</a>
+    </footer>
+  </body>
+</html>
